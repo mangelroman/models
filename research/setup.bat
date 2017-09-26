@@ -1,0 +1,2 @@
+for /r %%i in (object_detection\protos\*.proto) do protoc --python_out=. object_detection\protos\%%~nxi
+set PYTHONPATH=C:\Users\roman_m\repos\models\research;C:\Users\roman_m\repos\models\research\slim
